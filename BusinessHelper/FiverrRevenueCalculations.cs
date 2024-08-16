@@ -3,7 +3,7 @@
     internal class FiverrRevenueCalculations
     {
         private const float FIVERR_PERCENTAGE = 20f;
-        private const float URSAFF_PERCENTAGE = 22f;
+        private const float URSAFF_PERCENTAGE = 24f;
 
         public static void CalculatingFiverrRevenue()
         {
