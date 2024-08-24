@@ -96,7 +96,7 @@
             float takenByUrsaff = (float)Math.Round((amountEuro * URSAFF_PERCENTAGE) / 100, 2);
 
             float leftAfterFiverrDollars = (float)Math.Round(amount - takenByFiverr, 2);
-            float leftAfterFiverrEuros = (float)Math.Round(amount * convRate, 2);
+            float leftAfterFiverrEuros = (float)Math.Round(leftAfterFiverrDollars * convRate, 2);
 
             float totalAmountLeft = leftAfterFiverrEuros - takenByUrsaff;
 
